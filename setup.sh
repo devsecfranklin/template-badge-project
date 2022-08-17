@@ -49,7 +49,7 @@ function detect_os() {
     fi
 }
 
-function kicad_theme {
+#function kicad_theme {
 
   # Dracula theme: [Original is here](https://draculatheme.com/kicad)
   # Drop the file kicad/dracula.json into the following color themes directory:
@@ -58,7 +58,9 @@ function kicad_theme {
   # Windows Vista & later: `“C:\Users\username\AppData\Roaming” + kicad (= %APPDATA%\kicad) + "VERSION/colors"`
   # OSX: `~/Library/Preferences/kicad/6.0/colors`
 
-}
+#}
+
+# function get_kicad_version {
 
 function debian {
 
@@ -68,17 +70,23 @@ function debian {
   #sudo apt install --install-recommends kicad
 
   # Install KiBot
-  # git clone git@github.com:INTI-CMNB/KiBot.git
-  # cd KiBot && pip3 install --user -e .
+  if [ -d "KiBot" ]; then
+    echo -e "${CYAN}Found Clone of KiBot Repo... skipping${NC}"
+  else
+    echo -e "${CYAN}Found Cloning KiBot Repo...${NC}"
+    git clone git@github.com:INTI-CMNB/KiBot.git
+    echo -e "${CYAN}Installing KiBot${NC}"
+    cd KiBot && pip3 install --user -e .
+  fi
 
   # KiCad Action tools
   # https://github.com/easyw/kicad-action-tools
 
-  if [ -f "~/.config/kicad/VERSION/colors/dracula.json" ]; then
+  if [ -f "~/.config/kicad/6.0/colors/dracula.json" ]; then
     echo -e "${CYAN}Dracula Theme Installed${NC}"
   else
     echo -e "${CYAN}Installing Dracula Theme for KiCad${NC}"
-    cp docs/theme/dracula.json ~/.config/kicad/VERSION/colors
+    cp docs/theme/dracula.json ~/.config/kicad/6.0/colors
   fi
 
 }
