@@ -69,6 +69,9 @@ function debian {
   #sudo apt update
   #sudo apt install --install-recommends kicad
 
+  echo -e "${CYAN}Copying modules to /usr/share/kicad...${NC}"
+  sudo cp -Rp modules /usr/share/kicad
+
   # Install KiBot
   if [ -d "KiBot" ]; then
     echo -e "${CYAN}Found Clone of KiBot Repo... skipping${NC}"
