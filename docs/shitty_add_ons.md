@@ -5,6 +5,12 @@
 - [badge header connectors](https://www.ebay.com/itm/173960769032)
 - search Ebay for `2×3 Pin 6 Pin With Polarizing Key`
 
+![sao1](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao1.png)
+
+![sao2](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao2.png)
+
+![sao3](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao3.png)
+
 ## I2C Addresses
 
 | Type 			| IC   		| 7-bit address	|
