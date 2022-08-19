@@ -38,3 +38,8 @@ https://www.lab4iot.com/2019/07/07/soldering-the-esp32-wroom-to-pcb/
 https://www.youtube.com/watch?v=62WiPscjh4Y
 
 https://www.pcbway.com/blog/PCB_Design_Tutorial/How_to_make_your_own_ESP32_breakout_board_with_minimal_circuit.html
+
+## How to Import kicad_mod footprints
+
+https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/creating-a-custom-kicad-footprint-library
+

@@ -1,0 +1,16 @@
+# rshell tips
+
+sudo pip install rshell -y
+sudo usermod -a -G dialout $USER
+
+rshell --version
+
+rshell
+connect serial /dev/ttyUSB0
+
+ls /pyboard
+
+cp scan.py /pyboard/
+
+repl
+import scan.py
