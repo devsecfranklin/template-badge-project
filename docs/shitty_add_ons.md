@@ -9,7 +9,7 @@
 
 ![sao2](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao2.png)
 
-![sao3](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao3.png)
+![sao_connector](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao_connector.jpg)
 
 ## I2C Addresses
 
