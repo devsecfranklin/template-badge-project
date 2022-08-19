@@ -13,8 +13,8 @@
 
 ## I2C Addresses
 
-| Type 			| IC   		| 7-bit address	|
-|:-:			|:-:	    |:-:	        |
+| Type  | IC | 7-bit address |
+|:-: | :-: |:-: |
 | GPIO Expander	| MCP23017	| 0x20		  	|
 | EEPROM		| AT24C32 	| 0x50		 	|
 | REDACTED  	| REDACTED 	| TBD			|
