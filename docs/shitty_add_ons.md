@@ -9,12 +9,12 @@
 
 ![sao2](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao2.png)
 
-![sao3](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao3.png)
+![sao_connector](https://github.com/dead10c5/badge-project-template/blob/main/docs/images/sao_connector.jpg)
 
 ## I2C Addresses
 
-| Type 			| IC   		| 7-bit address	|
-|:-:			|:-:	    |:-:	        |
+| Type  | IC | 7-bit address |
+|:-: | :-: |:-: |
 | GPIO Expander	| MCP23017	| 0x20		  	|
 | EEPROM		| AT24C32 	| 0x50		 	|
 | REDACTED  	| REDACTED 	| TBD			|

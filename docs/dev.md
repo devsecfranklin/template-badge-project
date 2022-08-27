@@ -29,7 +29,8 @@ git commit -m 'I did something'
 git push origin dev1
 ```
 
-- Now go to the github website and you should see a big yellow bar with a button to open a pull reqest
+- Now go to the github website and you should see a big yellow bar with a button
+  to open a pull reqest.
   - have to be at top level of repo
 - add a description of changes and submit the PR
 - now we can review and comment
