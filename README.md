@@ -1,6 +1,6 @@
 # badge-project-template
 
-[![markdown](https://github.com/DEAD10C5/badge-project-template/actions/workflows/markdown.yml/badge.svg?branch=main)](https://github.com/DEAD10C5/badge-project-template/actions/workflows/markdown.yml)
+[![markdown](https://github.com/DEAD10C5/badge-project-template/actions/workflows/markdown.yml/badge.svg)](https://github.com/DEAD10C5/badge-project-template/actions/workflows/markdown.yml)
 
 - [This is where the documentation lives](/docs)
 - Clone this repo for new projects.
