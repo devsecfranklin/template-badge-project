@@ -3,8 +3,6 @@
 What you need to know about getting artwork from an image file
 into a shape and silscreen on a PCB.
 
-* [Adding a logo to your KiCAD PCB](https://www.re-innovation.co.uk/docs/adding-logo-to-kicad/)
-
 ## Layers on a PCB
 
 * The [silkscreen is a layer of ink trace](https://www.pcbway.com/pcb_prototype/PCB_Silkscreen.html) used to identify the PCB components, marks, logos, symbols, and so on.
@@ -15,16 +13,22 @@ When an artist provides artwork for a badge there are limits on what can be show
 In other words, an 8-bit black and white graphic would look closeer to the original artwork. Full color
 graphics with lots of lines and shading would not be reproduced well on the silscreen layer.
 
-## Convert the Outline to Bitmap
+## Convert the Image to Plain SVG
 
-* Download/install gimp on your computer.
-* Open the `.svg` file from the last step in gimp. Choose all the defaults in the dialogs.
+* [Install Inkscape](https://inkscape.org/release/inkscape-1.2.2/)
+* Import the jpg/png graphics file to Inkscape.
+* Save the graphic as a "plain SVG", and save it that way
+  * Do not save as Inkscape SVG
+
+## Convert the Graphic to Bitmap
+
+* [Download/install gimp](https://www.gimp.org/) on your computer.
+* Open the `.svg` file from the last step in Gimp. Choose all the defaults in the dialogs.
   * You can change the scale at this time. Recommend to do everything in metric to avoid conversion mistakes.
 * Select `file -> Export as` and uncheck the box that says  "Select file type by Extension"
 * Now export as windows 24 bit BMP.
   * Check the box for "do not write color space information"
   * Under advanced options select 24 bit color.
-* [How to add logo or image on the PCB board silkscreen layer in KiCad v5](https://acoptex.com/wp/how-to-add-logo-or-image-on-the-pcb-board-in-kicad-v5/)
 
 ## Import the Bitmap to KiCad, Export Footprint
 
@@ -49,3 +53,8 @@ graphics with lots of lines and shading would not be reproduced well on the sils
 * Select the `*.kicad_mod` file you created.
 * Scale it
 * Import the graphics to the silkscreen layer with `File -> import graphics`
+
+## Extra links
+
+* [Adding a logo to your KiCAD PCB](https://www.re-innovation.co.uk/docs/adding-logo-to-kicad/)
+* [How to add logo or image on the PCB board silkscreen layer in KiCad v5](https://acoptex.com/wp/how-to-add-logo-or-image-on-the-pcb-board-in-kicad-v5/)
