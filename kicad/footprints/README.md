@@ -1,3 +1,3 @@
 # Footprints
 
-These are used on the PCB.
+These are the `*.mod` and `*.kicad_mod` files used on the PCB.
