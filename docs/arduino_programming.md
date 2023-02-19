@@ -9,7 +9,6 @@
 * CLOCK: Connect the ATTiny84/44 Pin 9 to Arduino Pin 13
 * Connect the ground and 5v from the Arduino to the breadboard.
 
-
 Make sure you select the option “ATTiny84  (internal 1 MHz clock)”, or “ATTiny44  (internal 1 MHz clock)” in the Tools->Board menu (depending on which version of the chip you have):
 
 Upload the sketch using the “File” -> “Upload Using Programmer” command (Ctrl + Shift + U).
