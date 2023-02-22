@@ -4,8 +4,8 @@
 - Use the [Free Routing tool](https://freerouting.org/freerouting/using-with-kicad) to route KiCad boards.
 
 ```sh
- ⚓  ~  locate freeRouting.jar
-/opt/layout/bin/freeRouting.jar
+locate freeRouting.jar
+java -jar /opt/layout/bin/freeRouting.jar
 ```
 
 - From KiCad, Create the DSN file by clicking on File, Export, “Specctra DSN…”
