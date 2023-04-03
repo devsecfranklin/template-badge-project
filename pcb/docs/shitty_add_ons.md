@@ -1,5 +1,7 @@
 # AND!XOR SAO Reference Designs
 
+- [SHITTY ADD-ON V1.69BIS STANDARD](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/)
+
 ## Hardware
 
 - [badge header connectors](https://www.ebay.com/itm/173960769032)
