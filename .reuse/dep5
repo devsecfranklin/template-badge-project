@@ -1,20 +1,20 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: KiBot-CICI-Template
-Upstream-Contact: nerdyscout <nerdyscout@posteo.de>
-Source: github.com/nerdyscout/KiBot-CICD-Template
+Upstream-Name: badge-2023-tri-poloski
+Upstream-Contact: DE:AD:10:C5 <devsecfranklin@duck.com>
+Source: github.com/DEAD10C5/badge-project-template
 
 Files: pcb/*
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
 License: CERN-OHL-P-2.0
 
-Files: pcb/docs/* README.md
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Files: artwork/* README.md
+Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
 License: CC-BY-SA-4.0
 
-Files: src/* lib/* include/* test/*
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Files: src/* test/*
+Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
 License: GPL-3.0-or-later
 
-Files: .gitignore .kibot/* *.yml *.yaml *.ini
-Copyright: 2022, nerdyscout <nerdyscout@posteo.de>
+Files: .git* .kibot/* *.yml *.yaml *.ini .markdownlint.json .vscode .whitesource
+Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
 License: CC0-1.0
