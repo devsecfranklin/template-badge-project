@@ -11,7 +11,7 @@ Files: artwork/* README.md
 Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
 License: CC-BY-SA-4.0
 
-Files: src/* test/*
+Files: src/* test/* setup.sh
 Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
 License: GPL-3.0-or-later
 
