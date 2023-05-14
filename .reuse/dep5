@@ -1,20 +1,20 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: badge-2023-tri-poloski
-Upstream-Contact: DE:AD:10:C5 <devsecfranklin@duck.com>
+Upstream-Name: badge-project-template
+Upstream-Contact: DE:AD:10:C5 <franklin@dead10c5.org> 
 Source: github.com/DEAD10C5/badge-project-template
 
-Files: pcb/*
-Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
+Files: .pio/* pcb/*
+Copyright: 2023, DE:AD:10:C5 <franklin@dead10c5.org>
 License: CERN-OHL-P-2.0
 
 Files: artwork/* README.md
-Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
+Copyright: 2023, DE:AD:10:C5 <franklin@dead10c5.org>
 License: CC-BY-SA-4.0
 
 Files: bin/* src/* test/* setup.sh
-Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
+Copyright: 2023, DE:AD:10:C5 <franklin@dead10c5.org>
 License: GPL-3.0-or-later
 
 Files: .git* .kibot/* *.yml *.yaml *.ini .markdownlint.json .vscode .whitesource
-Copyright: 2023, DE:AD:10:C5 <devsecfranklin@duck.com>
+Copyright: 2023, DE:AD:10:C5 <franklin@dead10c5.org>
 License: CC0-1.0
