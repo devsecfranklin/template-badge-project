@@ -1,9 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
+#
+# SPDX-FileCopyrightText: 2023 DE:AD:10:C5 <franklin@dead10c5.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 # 2/25/2022 Maintainer script 
-
 # Author:  2730246+devsecfranklin@users.noreply.github.com 
 
+set -eu
 
 #Black        0;30     Dark Gray     1;30
 #Red          0;31     Light Red     1;31
@@ -89,7 +93,7 @@ function debian {
     echo -e "${CYAN}Dracula Theme Installed${NC}"
   else
     echo -e "${CYAN}Installing Dracula Theme for KiCad${NC}"
-    cp docs/theme/dracula.json ~/.config/kicad/6.0/colors
+    cp ../pcb/docs/theme/dracula.json ~/.config/kicad/6.0/colors
   fi
 
 }
@@ -109,4 +113,4 @@ function main() {
 
 }
 
-main
+main "$@"
