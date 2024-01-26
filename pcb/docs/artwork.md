@@ -17,8 +17,7 @@ graphics with lots of lines and shading would not be reproduced well on the sils
 
 * [Install Inkscape](https://inkscape.org/release/inkscape-1.2.2/)
 * Import the jpg/png graphics file to Inkscape.
-* Save the graphic as a "plain SVG", and save it that way
-  * Do not save as Inkscape SVG
+* Do not save as Inkscape SVG. Save the graphic as a "plain SVG".
 
 ## Convert the Graphic to Bitmap
 
