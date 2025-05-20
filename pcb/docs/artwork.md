@@ -15,18 +15,28 @@ graphics with lots of lines and shading would not be reproduced well on the sils
 
 ## Convert the Image to Plain SVG
 
-* [Install Inkscape](https://inkscape.org/release/inkscape-1.2.2/)
+* [Install Inkscape](https://inkscape.org/release/inkscape-1.3.2/)
 * Import the jpg/png graphics file to Inkscape.
 * Do not save as Inkscape SVG. Save the graphic as a "plain SVG".
+* Now "clip" the image to the desired size.
+  * Sometimes it is easier to do this with [gimp](https://www.gimp.org/downloads/)
+  * place a shape such as a retctangle on top of the image in the area
+    you wish to crop, and select both the image and shape
+  * Note that the clipping shape or object always goes on top of the image to be clipped.
+  * Now, go to Object > Clip > Set to apply clipping and crop the image.
+  * The image is now cropped according to the shapes you use to clip
 
 ## Convert the Graphic to Bitmap
 
-* [Download/install gimp](https://www.gimp.org/) on your computer.
-* Open the `.svg` file from the last step in Gimp. Choose all the defaults in the dialogs.
-  * You can change the scale at this time. Recommend to do everything in metric to avoid conversion mistakes.
+* [Download/install gimp](https://www.gimp.org/downloads/) on your computer.
+* Open the `.svg` file from the last step in Gimp.
+  * Choose all the defaults in the dialogs.
+  * You can change the scale at this time.
+  * Recommend to do everything in metric units to avoid conversion mistakes.
 * Select `file -> Export as` and uncheck the box that says  "Select file type by Extension"
 * Now export as windows 24 bit BMP.
-  * Check the box for "do not write color space information"
+  * Check the box for "do not write color space information" under
+    the "compatibility options" menu.
   * Under advanced options select 24 bit color.
 
 ## Import the Bitmap to KiCad, Export Footprint
