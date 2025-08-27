@@ -1,1 +1,1 @@
-../pcb/docs/artwork.md
+../docs/artwork.md
