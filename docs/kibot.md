@@ -14,7 +14,7 @@ Maybe install like so
 cd /tmp
 git clone --recursive https://github.com/nerdyscout/kicad-exports ki
 cd ki && make && make install
-cd /home/franklin/workspace/esp32-dev-breakout
+# cd /home/franklin/workspace/esp32-dev-breakout
 ```
 
 Run like so:
